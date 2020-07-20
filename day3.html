@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" 
+    href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <form   method = "post" name="form1">
+        <!-- action is the path where the data will go
+         method attributes tell which http verb u have to use -->
+
+            <input type="number" required 
+                placeholder="Enter your age" 
+                name="age" max="100"
+                title = "Enter a valid age" />
+                
+            
+
+            <br />
+
+            <input type="color" name="fav-color" id="fav-color"> <br />
+            <input type="date" name="dob" id="dob"> <br />
+            <input type="range" name="price-slider" id="price-slider" />
+            <input type="hidden" name="token" value = "never use ur sensitive data here"> 
+            <br /><br />
+            <select name="course" id="">
+                <option value="html">html</option>
+                <option value="css">css</option>
+            </select>
+            <br /><br />
+            <label for="course-multiple">Course Multiple</label>
+            <select name="course-multiple" id="course-multiple" multiple>
+                <option value="html">html</option>
+                <option value="css">css</option>
+            </select>
+            
+            <label for="course-another">Course another</label>
+            <select name="course-another" id="course-another">
+                <optgroup label="front end">
+                    <option value="html">html</option>
+                    <option value="css">css</option>
+                </optgroup>
+                <optgroup label="back end">
+                    <option value="c#">C#</option>
+                    <option value="sql">Sql</option>
+                </optgroup>
+            </select>
+
+            <br ><br />
+
+
+            <!-- <input type="submit" value="submit"/> -->
+            <button type = "submit">any icon will be here Submit</button>
+            <input type="reset" value="clear"/>
+            <!-- we can use input type submit or button type submit 
+            but in case u need an icon before submit text how can u set icon in value attribute
+          --> 
+
+        
+        <!-- let's understand it by real example -->
+        
+
+        <input type="submit" value = "heart">
+        <button type="submit">
+            <i class="fa fa-heart"></i> Heart
+        </button> 
+        </form> 
+            <!-- max means actual number limit  -->
+            <!-- maxlength means number of characters in case of text, search -->
+            <!-- value means set defualt value  -->
+            <!-- in html 5 there are special attributes in forms -->
+            <!-- assignment for html form for u.  --> 
+</body>
+</html>
