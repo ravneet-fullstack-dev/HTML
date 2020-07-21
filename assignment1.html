@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 1</title>
+</head>
+<body>
+    <h2>Students Admission form</h2>
+
+    <form action="#" method="get" name="admfrm">
+
+                    Name of the student : <input type="text" required name="student" placeholder="Your name" /><br/><br/>
+
+                    Date of birth:     <input  required type="date" name="dob" id="dob" /><br/><br/>
+                    
+                    Gender:      Male    <input required type="radio" name="gender" id="m" value="male" />
+                       Female<input type="radio" name="gender" id="f" value="female" /><br/><br/>
+            
+                       Membership No : <input type="number" required name="memno" id="memno" placeholder="Membership number" /><br/><br/>
+            
+                       Prayer group:   <input type="text" placeholder="Prayer group"  name="prayer" id="prayer" /><br/><br/>
+            
+                       Area: <textarea name="area"  id="area" placeholder="Area"></textarea><br/><br/>
+            
+                       <b>Parent's name:</b><br/>
+            
+                       Father's name: <input type="text" required name="fn" placeholder="Father's name" id="fn"><br/><br/>
+            
+                       Mother's name: <input type="text" required name="mn" placeholder="Mother's name" id="mn"><br/><br/>
+           
+           
+               <b>Contact details:</b><br/>
+           
+               Address P.O: <textarea name="add" id="add" required></textarea><br/>
+           
+               Pin Code:  <input type="text"  name="pin" maxlength="5" required id="pin"><br/><br/>
+           
+               Place: <input type="text" name="place" required id="place"><br/><br/>
+           
+               Contact Number: <input type="number" required  name="phn" id="phn" minlength="10" maxlength="10"><br/><br/>
+           
+               Email address:  <input type="email" required name="em" id="em"><br/>
+            
+
+          
+               <input type="submit" value="Register" name="register">
+    </form>
+<!--     maxlength and minlength--> 
+
+<!-- 
+HMM ETHE PATTERN USE HONA C OH JADO JAVASCRIPT KRNI REGULAR EXPERSSION TE FER PATA Lagna
+pattern = "^[0-9]{10}$" It WILL ALLOW ONLY USE NUMBER WITH ATLEAST AND MAXIMUM 10 DIGITS -->
+<!-- GOOD JOB -->
+</body>
+</html>

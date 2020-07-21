@@ -1,0 +1,81 @@
+/* IN CSS WE HAVE SELECTOR { PROPERTY : VALUE; ANOTHER_PROPERTY: ANOTHER_VALUE;}*/
+/* WHAT IS SELECTOR (IT CAN BE HTML ELEMENT, ID SELECTOR, CLASS SELECTOR AND MORE) */
+/* LET'S SEE WE NEED TO CHANGE THE STYLE OF BODY */
+* {
+    /* apply to every element */
+    box-sizing: border-box;
+}
+body {
+    margin:0;
+    padding: 0; 
+    font-family: sans-serif;
+}
+
+/* IN THE ABOVE LINE WE HAVE BODY (HTML SELECTOR) BACKGROUND-COLOR ->  PROPERTY  & 
+aqua is the value*/
+
+/* YOU CAN SEE BODY HAS DEFAULT MARGIN & PADDING */
+
+/* id selector */
+
+
+
+#header {
+    background-color: blueviolet;
+}
+
+#nav {
+    background-color: cadetblue;
+}
+
+/* as you see in the above code, i have repeated the same code twice 
+ in software development there is a rule DRY (dont repeat yourself) so lets
+ make a better solution*/
+
+ .bar {
+    color: #fff;
+    text-align: center;
+    padding: 20px 0px;
+    /* padding: top-bottom left-right; */
+ }
+
+ #left-sidebar {
+     width: 20%;
+     height: 100vh; /* vh viewport hight  the remaing height left in the body */
+     background-color: crimson;
+
+     /* float it to left side */
+     float: left;
+ }
+ #main {
+     width: 80%;
+     background-color: #ededed;
+     /* if i change padding it will not be adjusted because width will increase with padding */
+     /* also float it to left side */
+     float:left;
+     padding: 20px; 
+     /* but i want padding without expending its with how??? */ 
+     
+     /* dekh box a ik with 100px width je main left to 10px te right to 10px padding deva total width: 120px kida */
+ }
+
+ .box {
+     background-color: red;
+     width: 100px;
+     height: 100px;
+     padding-left:50px;
+     padding-right: 50px;
+     /* etho remove kita c universally thka */
+     /* with padding now use box-sizing  shota kyu hoya? it is 100px wide 
+     original size eh a te  pedding nal expend hoyeyaa c*/
+ }
+
+ #any-section {
+     padding: 50px;
+     text-align: center;
+     background-color: #ccc;
+ }
+
+ #footer {
+     background-color: #666; 
+ }
