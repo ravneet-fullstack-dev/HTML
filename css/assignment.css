@@ -1,0 +1,41 @@
+* {
+    box-sizing:border-box;
+}
+
+.clearfix {
+    clear:both; 
+}
+
+.bar{
+    padding: 10px;
+    background-color: darkcyan;
+    color: #ccc;
+    text-align: center;
+    /* border-radius: 5%; */
+
+}
+
+.section{
+   color: #ccc;
+   padding: 50px;
+    display: block;
+}
+
+#sec1{
+    background-color: blueviolet;
+}
+ 
+#sec2{
+    background-color: chocolate;
+    width:50%;
+    float: left;
+}
+
+#sec3{
+    background-color: crimson;
+    width: 50%;
+    float:left;
+}
+
+/* floating div & sections are the old tredition in css, nowdays we use
+flex or grid or any css framework like bootstrap etc okie  */

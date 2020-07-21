@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model</title>
+    <!-- i am going to use css internally -->
+    <style>
+        .box {
+            width: 300px;
+            height: 300px;
+            
+            /* border: 6px dashed red; this is short hand property */
+                
+            border-style: solid;
+            border-width: 25px;
+            border-color: #000;
+            /* border-image-source: url(images/border.png);
+            border-image-repeat: round;  */
+            /* in case of repeat the border corners are little bit disfigured
+            so use round always */
+            /* border-image-slice: 28; */
+            
+            /* now short-hand */
+
+            border-image: url(images/border.png) 28 round;
+
+            /* each diamond is of 28px hna ?? hm */ 
+                 /* how to set image to border tell me  */
+
+            /* play with border */
+            
+            /* border: 20px solid black; */
+
+            /* i need dotted 6px border start coding */
+        }
+    </style>
+</head>
+<body>
+    <!-- Do u know about box model in css -->
+    <!-- with the help of box model we can easily understand
+    what is border, padding and margin -->
+
+    <!-- Margin starts outside the border -->
+    <!-- Padding starts inside the border -->
+    <!-- this all is told by the box model -->
+
+ <!-- border-image keya -->
+ <div class="box">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, fuga.
+ </div>
+
+</body>
+</html>
