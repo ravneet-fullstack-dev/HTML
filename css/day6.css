@@ -1,0 +1,56 @@
+/* reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* body {
+    height: 2000px;
+    background-image: url(../images/bg.jpg);
+    background-size: cover ; /*BACKGROUND-SIZE: X Y
+    background-position: bottom;
+    background-attachment: fixed;
+} */
+
+#banner {
+    width: 50%;
+    height: 500px; 
+    /* RBGA RED BLUE GREEN WITH ALPHA MEANS OPACITY  */
+    margin: auto;
+    /* MEASNS WIDTH OF THE CONTAINER IS 50% AND 25% FROM LEFT AND 25% FROM RIGHT MARGIN OK?? */
+    /* MARGIN AUTO MEANS LEFT AND RIGHT EQUAL IF WIDTH IS ADJUSTABLE */
+    background-color: rgba(255, 0, 0, .5);
+    /* your path is wrong, where u r in the css directory 
+     image kyo ni lagi das
+     SEE YOU ARE IN DAYS6.CSS WHERE IT IS?? IN THE CSS DIRECTORY 
+
+        HTML
+            CSS => DAY6.CSS --> FIRST U NEED TO GO BACK
+            IMAGES => BG.JPG 
+
+
+    */
+    /* background-image: url(../images/bg.jpg);
+    background-size: cover ; 
+    background-position: bottom;
+    background-attachment: fixed; */
+
+    /* BACKGROUND SIZE COVER NAAL PURI COVER HONI VIEWPORT CH JITHE V PIC ADJUST HOI
+        CONTAIN NAL COVER HO JANI PER JE IMAGE SHOTI A REPEAT HO JANI OK??
+      SEE IN BACKGROUND POSITION, IF I WAY TOP IMAGE WILL START ADJUSTING TOP TO BOTTOM  
+  
+        dont forget it ok?? 
+    
+      */
+    /* background-repeat: no-repeat; */
+    /* I WANT BACKGROUND IMAGE */
+    
+      
+}
+
+#nav{
+    background-color: #333;
+    
+}

@@ -12,6 +12,7 @@
     color: #ccc;
     text-align: center;
     /* border-radius: 5%; */
+    border-image: url(images/bordeOKr.png) 28 round;
 
 }
 
