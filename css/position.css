@@ -1,0 +1,94 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    height: 2000px;
+}
+
+
+/* span {
+    padding: 10px;
+    background: red;
+    width: 20%;
+    display: inline-block;
+} */
+
+.box {
+    width: 50px;
+    height: 50px;
+    /* float:left; */
+    /* margin: 10px; */
+}
+
+#red {
+    background: red;
+    position: relative; 
+    /* top ,left, bottom, right will not work on position static 
+    move from original position without affecting other elements
+    */
+    top: 50px;
+    left: 30px; 
+}
+
+
+#blue {
+    background: blue;
+    position: absolute;
+    /* parent-child relation-- parent which is relative-- will behave accordingly
+    */
+    right: 0;
+    top: 10px; 
+    z-index: 0;
+}
+#parent{
+    width: 300px;
+    height: 300px;
+    border: 4px solid black;
+    position: relative;
+   
+}
+#green {
+    background: green;
+    position: absolute;
+    right: 0;
+    top: 30px;
+    z-index: 1; 
+    /* bottom: -10px; */
+}
+
+#orange {
+    background: orange;
+    position: fixed;
+    /* behaviour like absolute and is fixed to its position (overlapping with siblings)   */
+    right: 0px;
+    bottom: 0px;
+}
+
+#purple {
+    background: purple;
+    position: sticky;
+    /* behaviour same as absolute and 
+    it will stick to the screen when it reaches to its scroll position & will not overlap */
+    top: 0px;
+}
+
+nav{
+    width: 100%;
+    background-color: orchid;
+    padding: 50px 0px;
+    box-sizing: border-box;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    
+}
+main{ 
+    /* margin-top: 135px;  */
+}
+header{
+    width: 100%;
+    background-color: peachpuff;
+    padding: 20px;
+}

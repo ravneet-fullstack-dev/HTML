@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 2 Solution</title>
+    <style>
+        /* reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        ul {
+            list-style-type: none;
+        }
+        a {
+            text-decoration: none;
+            cursor: pointer;
+        }
+
+        #nav {
+            background-color: lightpink;
+            overflow: auto;
+        }
+
+        #nav .logo {
+            float: left;
+            padding: 10px;
+        }
+
+        .navbar-menu {
+            float:right;
+        }
+        .navbar-menu li  {
+            float:left;
+        }
+        .navbar-menu li a {
+            display: block;
+            padding: 10px 20px;
+            color: #000;
+        }
+
+        .navbar-menu li a.active, .navbar-menu li a:hover {
+            color: #fff;
+            background-color: rgb(247, 56, 88);
+        }
+
+        #banner {
+            height: 80vh;
+            background-image: url(images/bg.jpg);
+            background-size: cover;
+            background-position: bottom;
+        }
+
+        /*
+        */
+    </style>
+</head>
+<body>
+ 
+        <!-- header section -->
+        <header>
+            <nav id = "nav">
+                <div class="logo">Ravneet's Logo</div>
+                <ul class = "navbar-menu">
+                    <li><a href="#" class = "active">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- banner -->
+
+        <section id = "banner"></section>
+
+        <!-- about us -->
+
+        <section id="about-us">
+            
+        </section>
+
+</body>
+</html>
